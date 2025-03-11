@@ -31,7 +31,7 @@ body {
 .main-info__nav--menu--list > li {
   padding-left: 24px;
   list-style: none;
-  line-height: 24px;
+  line-height: 32px;
   font-size: 16px;
   color: #1b1c21;
   margin-bottom: 32px;
@@ -57,6 +57,7 @@ a:hover {
   -webkit-tap-highlight-color: transparent;
   animation-name: identifier;
   animation-duration: 1s;
+  color: #7E7E82;
 }
 
 @keyframes identifier {
