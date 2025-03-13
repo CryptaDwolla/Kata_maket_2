@@ -16,7 +16,7 @@ body {
 }
 
 .upper_menu__burger {
-  background: url("https://github.com/CryptaDwolla/Kata_maket_2/blob/main/burger.svg") no-repeat;
+  background: url("burger.svg") no-repeat;
   width: 40px;
   height: 40px;
   border: none;
@@ -30,7 +30,7 @@ body {
 }
 
 .upper_menu__loupe {
-  background: url("https://github.com/CryptaDwolla/Kata_maket_2/blob/main/loupe.svg") no-repeat;
+  background: url("loupe.svg") no-repeat;
   width: 40px;
   height: 40px;
   border: none;
@@ -58,7 +58,7 @@ body {
   font-weight: 500;
   color: #7e7e82;
   margin-bottom: 32px;
-  background: url("https://github.com/CryptaDwolla/Kata_maket_2/blob/main/highlight.svg") no-repeat left;
+  background: url("highlight.svg") no-repeat left;
 }
 
 .main-info__nav--menu--list > li > a {
@@ -96,19 +96,19 @@ body {
 
 #call-icon {
   margin-left: 0;
-  background: url("https://github.com/CryptaDwolla/Kata_maket_2/blob/main/chat_call.svg") no-repeat;
+  background: url("chat_call.svg") no-repeat;
   width: 40px;
   height: 40px;
 }
 
 #chat-svg {
-  background: url("https://github.com/CryptaDwolla/Kata_maket_2/blob/main/chat.svg") no-repeat;
+  background: url("chat.svg") no-repeat;
   width: 40px;
   height: 40px;
 }
 
 #profile-svg {
-  background: url("https://github.com/CryptaDwolla/Kata_maket_2/blob/main/profile.svg") no-repeat;
+  background: url("profile.svg") no-repeat;
   width: 40px;
   height: 40px;
 }
