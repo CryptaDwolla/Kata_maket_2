@@ -16,11 +16,25 @@ body {
 }
 
 .upper_menu__burger {
-  margin-right: 17px;
+  background: url("burger.svg") no-repeat;
+  width: 40px;
+  height: 40px;
+  border: none;
 }
 
 .upper_menu__logo {
-  margin-right: 78px;
+  margin-right: 88px;
+  position: relative;
+  top: 7px;
+  left: 17px;
+}
+
+.upper_menu__loupe {
+  background: url("loupe.svg") no-repeat;
+  width: 40px;
+  height: 40px;
+  border: none;
+  margin-right: 0;
 }
 
 .main-info__nav--menu--list {
@@ -47,17 +61,17 @@ body {
   background: url("highlight.svg") no-repeat left;
 }
 
-a {
+.main-info__nav--menu--list > li > a {
   text-decoration: none;
   color: inherit;
 }
 
-a:hover {
+.main-info__nav--menu--list > li > a:hover {
   text-decoration: none;
   -webkit-tap-highlight-color: transparent;
   animation-name: identifier;
   animation-duration: 1s;
-  color: #7E7E82;
+  color: #7e7e82;
 }
 
 @keyframes identifier {
@@ -74,12 +88,29 @@ a:hover {
   margin-top: 236px;
 }
 
-.additional-info__relations > img {
+.additional-info__relations > button {
   margin-left: 16px;
+  background: transparent;
+  border: none;
 }
 
-#chat-icon {
+#call-icon {
   margin-left: 0;
+  background: url("chat_call.svg") no-repeat;
+  width: 40px;
+  height: 40px;
+}
+
+#chat-svg {
+  background: url("chat.svg") no-repeat;
+  width: 40px;
+  height: 40px;
+}
+
+#profile-svg {
+  background: url("profile.svg") no-repeat;
+  width: 40px;
+  height: 40px;
 }
 
 .additional-info__communications {
@@ -109,12 +140,23 @@ a:hover {
   margin-bottom: 32px;
 }
 
-.additional-info__languages > span {
-  margin-right: 7px;
+.additional-info__languages > button {
+  background: transparent;
+  border: none;
 }
 
-.additional-info__languages > span:hover {
+.additional-info__languages > button:focus {
   color: #7e7e82;
   animation-name: identifier;
   animation-duration: 1s;
+}
+
+.additional-info__communications--email {
+  text-decoration: none;
+  color: inherit;
+}
+
+.additional-info__communications--phone {
+  text-decoration: none;
+  color: inherit;
 }

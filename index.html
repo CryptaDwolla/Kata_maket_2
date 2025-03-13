@@ -4,15 +4,19 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style_2.css" />
-    <link href="https://cryptadwolla.github.io/Kata_Maket_1/fonts/TTLakes/stylesheet.css" rel="stylesheet" type="text/css"/>
+    <link
+      href="https://cryptadwolla.github.io/Kata_Maket_1/fonts/TTLakes/stylesheet.css"
+      rel="stylesheet"
+      type="text/css"
+    />
     <title>Document</title>
   </head>
   <body>
     <aside class="sidebar">
       <header class="upper_menu">
-        <img class="upper_menu__burger" src="burger.svg" alt="" />
+        <button class="upper_menu__burger"></button>
         <img class="upper_menu__logo" src="Group.svg" alt="Логотип" />
-        <img class="upper_menu__loupe" src="loupe.svg" alt="Поиск" />
+        <button class="upper_menu__loupe"></button>
       </header>
       <section class="main-info">
         <nav class="main-info__nav--menu">
@@ -30,22 +34,26 @@
       </section>
       <footer class="additional-info">
         <div class="additional-info__relations">
-          <img id="chat-icon" src="chat_call.svg" alt="Заказать звонок" />
-          <img src="chat.svg" alt="Чат с сотрудником" />
-          <img src="profile.svg" alt="Поиск" />
+          <button id="call-icon"></button>
+          <button id="chat-svg"></button>
+          <button id="profile-svg"></button>
         </div>
         <div class="additional-info__communications">
-          <span class="additional-info__communications--email"
-            >mail@cps.com</span
+          <a
+            class="additional-info__communications--email"
+            href="mailto:mail@cps.com"
+            >mail@cps.com</a
           >
-          <span class="additional-info__communications--phone"
-            >8 800 890 8900</span
+          <a
+            class="additional-info__communications--phone"
+            href="tel:8 800 890 8900"
+            >8 800 890 8900</a
           >
         </div>
         <div class="additional-info__languages">
-          <span class="additional-info__languages--ru">RU</span>
-          <span class="additional-info__languages--en">EN</span>
-          <span class="additional-info__languages--ch">CH</span>
+          <button class="additional-info__languages--ru">RU</button>
+          <button class="additional-info__languages--en">EN</button>
+          <button class="additional-info__languages--ch">CH</button>
         </div>
       </footer>
     </aside>
